@@ -1,0 +1,58 @@
+header div:first-child{
+	background: blue;
+	padding:4%;
+	width:42%;
+	float:left;
+}
+header div:nth-child(2){
+	background: green;
+	padding:4%;
+	width:42%;
+	float:right;
+}
+.clear{ clear: both; }
+
+nav {
+	background:red;
+	}
+
+nav ul{
+	margin:5px;
+	padding: 0;
+}
+nav ul li{
+	list-style: none;
+	float: left;
+	margin: 0.5%;
+	padding: 1%;
+	background: yellow;
+}
+nav ul li a{
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+nav ul li:hover{
+	background: lightgreen;
+}
+
+section div:first-child{
+	background: blue;
+	padding:4%;
+	width:32%;
+	float:left;
+}
+
+section div:nth-child(2){
+	background: green;
+	padding: 4%;
+	width: 52%;
+	float: left;
+}
+
+footer{
+	padding: 4%;
+	background: yellow;
+	margin-top: 0.5%;
+	width:100%;
+}
