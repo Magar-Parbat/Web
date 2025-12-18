@@ -1,0 +1,66 @@
+.clear { 
+	clear: both; 
+}
+
+#head .logo {
+	background: blue;
+	float: left;
+	width: 42%;
+	padding: 4%;
+
+}
+
+#head .email {
+	background: green;
+	float: left;
+	width: 42%;
+	padding: 4%;
+}
+
+#main-nav {
+	background: red;
+}
+
+#main-nav ul {
+	margin: 5px;
+	padding: 0;
+}
+
+#main-nav ul li {
+	list-style: none;
+	background: yellow;
+	margin: 0.5%;
+	float: left;
+	padding: 1%;
+}
+
+#main-nav ul li a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+
+#main-nav ul li:hover{
+	background: lightgreen;
+}
+
+#content .left_bar {
+	background: blue;
+	padding: 4%;
+	width: 32%;
+	float: left;
+}	
+
+#content .right_bar{
+	background: green;
+	padding: 4%;
+	width: 52%;
+	float: left;
+}
+
+#foot {
+	background: yellow;
+	padding: 4%;
+	width: 100%;
+	margin-top: 0.5%;
+}
