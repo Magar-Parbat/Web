@@ -1,0 +1,39 @@
+#head {
+	border: 3px solid black;
+	text-align: center;
+	font-size: 30px;
+	padding: 3%;
+}
+
+.side_bar {
+	border: 3px solid black;
+	text-align: center;
+	font-size: 30px;
+	margin: 1% .1%;
+	display: inline-block;
+	width: 20%;
+	padding: 10% 4%;
+	height: 200px;
+}
+
+.main {
+	border: 3px solid black;
+	text-align: center;
+	font-size: 30px;
+	margin: 1% .2%;
+	display: inline-block;
+	width: 62%;
+	padding: 10% 4%;
+	height: 200px;
+}
+
+#footer {
+	border: 3px solid black;
+	text-align: center;
+	font-size: 30px;
+	padding: 3%;
+}
+
+body {
+	margin: 1% 4%;
+}
