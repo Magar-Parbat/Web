@@ -1,0 +1,98 @@
+body {
+	padding: 0px;
+	margin: 0px;
+} 
+
+/* nav bar */
+
+nav {
+	background: #B71C1C;
+	padding: 8px 0px;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+nav ul li {
+	background: #E53935;
+	list-style: none;
+	margin: 0.5%;
+	padding: .4%;
+}
+
+nav ul li a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+/* first page */
+
+#laliga-img {
+	display: flex;
+	align-items: center;     /* vertical alignment */
+    justify-content: center; /* center horizontally if needed */
+    flex-wrap: wrap; /* responsive wrap on smaller screen */
+
+}
+
+.laliga-logo {
+	flex: 1;
+}
+
+.laliga-trophy {
+	flex: 1;
+}
+
+.laliga-winner {
+	flex: 2;
+}
+
+#laliga-img img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover; /* prevent stretching */
+	display: block; /* remove unwanted inline spacing */
+}
+
+#about-laliga {
+	background: #E53935;
+	font-family: fantasy;
+	width: 52%;
+	float: left;
+	font-size: 20px;
+	padding: .5% 4%;
+	color: #F5DEB3;
+	height: 550px;
+}
+
+#about-laliga h2 {
+	font-weight: lighter;
+}
+
+#laliga-team {
+	float: left;
+	background: #B71C1C;
+	padding: .5% 4%;
+	width: 32%;
+	color: #F5DEB3;
+	height: 550px;
+}
+
+#laliga-team h2 {
+	font-size: 24px;
+	font-weight: lighter;
+	font-family: Impact;
+}
+
+.laliga-team li {
+	font-size: 18px;
+	font-family: Impact;
+	list-style: square;
+}
